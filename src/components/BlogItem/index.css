@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  border: 1px solid red;
+}
+.blog-image {
+  width: 200px;
+  height: fit-content;
+  margin-right: 30px;
+}
+.blog-image img {
+  width: 100%;
+}
+.blog-author-details {
+  display: flex;
+}
+.author-img {
+  width: 100px;
+}
