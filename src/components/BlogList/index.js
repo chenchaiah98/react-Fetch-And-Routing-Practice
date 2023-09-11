@@ -36,7 +36,15 @@ class BlogList extends Component {
     return (
       <div>
         {isLoading ? (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          <>
+            <Loader
+              type="TailSpin"
+              color="#00BFFF"
+              height={50}
+              width={50}
+              data-testid="loader"
+            />
+          </>
         ) : (
           <ul className="list">
             {blogList.map(e => (

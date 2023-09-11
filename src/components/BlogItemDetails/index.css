@@ -1,1 +1,17 @@
 /* Write your CSS code here */
+
+.d-blog-info {
+  width: 80%;
+}
+.d-author-pic {
+  width: 40px;
+}
+.d-blog-image {
+  width: 100%;
+}
+.d-blog-details-title {
+  text-align: center;
+}
+.d-author-details {
+  display: inline-flex;
+}

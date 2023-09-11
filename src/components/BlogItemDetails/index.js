@@ -34,15 +34,17 @@ class BlogItemDetails extends Component {
     const {title, imageUrl, content, avatarUrl, author} = blogData
 
     return (
-      <div className="blog-info">
-        <h2 className="blog-details-title">{title}</h2>
-        <div className="author-details">
-          <img className="author-pic" src={avatarUrl} alt={author} />
-          <p className="details-author-name">{author}</p>
+      <>
+        <div className="d-blog-info">
+          <h2 className="d-blog-details-title">{title}</h2>
+          <div className="d-author-details">
+            <img className="d-author-pic" src={avatarUrl} alt={author} />
+            <p className="d-details-author-name">{author}</p>
+          </div>
+          <img className="d-blog-image" src={imageUrl} alt={title} />
+          <p className="d-blog-content">{content}</p>
         </div>
-        <img className="blog-image" src={imageUrl} alt={title} />
-        <p className="blog-content">{content}</p>
-      </div>
+      </>
     )
   }
 
